@@ -10,9 +10,6 @@
 	.content { max-width: 100% !important; padding: 8px !important; }
 	.biggerimage { width: 100% !important; }
 }
-.h1{
-    text-align: center;
-}
 .size0 { font-size: 8px; }
 .size1 { font-size: 11px; }
 .comment { font-size: 11px; font-style: italic; }
@@ -39,7 +36,14 @@
 	border-width: 2px;
 	border-radius: 8px;
 }
-
+hr
+{
+	border: 1px solid #666666;
+	margin-left: 0px;
+	margin-right: auto;
+	text-align: left;
+	width: 50%;
+}
 body
 {
 	background-color: #0c3f07;
