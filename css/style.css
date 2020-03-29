@@ -22,6 +22,14 @@
     margin: 0 auto;
     width: 1000px;
 }
+a 
+{ 
+	text-decoration: none;
+	color: royalblue;
+}
+a:link { color: #CCC0FF; }
+a:visited { color: #A9A0FF; }
+a:hover, a:active { color: #FFFFFF; }
 .content
 {
 	display: inline-block;
