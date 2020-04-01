@@ -1,6 +1,9 @@
 function func(num) {
     var stry;
     switch(num) {
+        case 0:
+            stry = '<p class="size4" style="text-align: center;">Lời cảnh báo</p>';
+            break;
         case 1:
             stry = '<p class="size4" style="text-align: center;">Mong các bạn đợi Cường viết xong....</p>';
             break;
